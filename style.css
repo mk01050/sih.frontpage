@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    /* background-color: rgb(146 ,168 , 209); */
+    /* background-color: #92a8d1; */
+    background-image: radial-gradient( circle 1292px at -13.6% 51.7%,  rgba(0,56,68,1) 0%, rgba(163,217,185,1) 51.5%, rgba(255,252,247,1) 88.6% );
+
+}
+header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bus-scheduler{
+    display: flex;
+}
+h2{
+    margin-left: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+i{
+    font-size: 22px;
+    margin-top: 2.5px;
+    margin-left: 15px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    gap: 10px;
+}
+#text1{
+    font-size: 40px;
+    font-family:sans-serif;
+}
+p{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+select{
+    height: 35px;
+    width: 140px;
+}
+.route{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 3vmin;
+}
+
+#from1 , #to1 {
+    font-weight: bolder;
+}
+select{
+    border: 1px solid black;
+    border-radius: 0.30rem;
+    object-fit: cover;
+}
+button{
+    width: 4.5rem;
+    margin-top: 20px;
+    font-size: 18px;
+    /* border-radius: 0.30rem; */
+}
+button:hover{
+    transform: scale(1.3);
+    color: blue;
+}
+a:hover{
+    transform: scale(1.3);
+    transition: all;
+    animation: ease-in 0.5s ;
+}
